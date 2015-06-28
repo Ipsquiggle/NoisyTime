@@ -1,13 +1,28 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
     "capabilities": [
-        "configurable"
+        "location"
     ],
     "companyName": "graham.jans@gmail.com",
     "longName": "Noisy Time",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/background.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:. ]",
+                "file": "fonts/IMPACT.TTF",
+                "name": "FONT_IMPACT_60",
+                "type": "font"
+            }
+        ]
     },
     "sdkVersion": "3",
     "shortName": "Noisy Time",
